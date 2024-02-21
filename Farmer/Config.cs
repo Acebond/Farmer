@@ -11,17 +11,6 @@ namespace Farmer
         public static string output;
         public static StreamWriter sw;
         public static string key = "farmer";
-        public static bool encrypt = false;
-        public static string banner = @"
-  █████▒▄▄▄       ██▀███   ███▄ ▄███▓▓█████  ██▀███  
-▓██   ▒▒████▄    ▓██ ▒ ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓██ ▒ ██▒
-▒████ ░▒██  ▀█▄  ▓██ ░▄█ ▒▓██    ▓██░▒███   ▓██ ░▄█ ▒
-░▓█▒  ░░██▄▄▄▄██ ▒██▀▀█▄  ▒██    ▒██ ▒▓█  ▄ ▒██▀▀█▄  
-░▒█░    ▓█   ▓██▒░██▓ ▒██▒▒██▒   ░██▒░▒████▒░██▓ ▒██▒
- ▒ ░    ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ▒░   ░  ░░░ ▒░ ░░ ▒▓ ░▒▓░
- ░       ▒   ▒▒ ░  ░▒ ░ ▒░░  ░      ░ ░ ░  ░  ░▒ ░ ▒░
- ░ ░     ░   ▒     ░░   ░ ░      ░      ░     ░░   ░ 
-             ░  ░   ░            ░      ░  ░   ░     
-";
+        public static string banner = "FARMER";
     }
 }
